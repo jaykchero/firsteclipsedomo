@@ -1,6 +1,6 @@
 import java.util.Collection;
 import java.util.HashSet;
-//8999
+//899998黄乐
 public class CollectionStream {
 		
 	public static void main(String[] args) {
