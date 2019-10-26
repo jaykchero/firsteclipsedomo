@@ -2,9 +2,12 @@ import java.util.Collection;
 import java.util.HashSet;
 
 public class CollectionStream {
-
+		
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		//ª∆¿÷ª∆¿÷
+		
+		
 		Collection<String> bookStrings=new HashSet<String>();
 		bookStrings.add("java");
 		bookStrings.add("c");
