@@ -1,6 +1,6 @@
 import java.util.Collection;
 import java.util.HashSet;
-//abc
+//8999
 public class CollectionStream {
 		
 	public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class CollectionStream {
 		System.out.println(bookStrings.stream().filter(ele->((String)ele).length()>3).count());
 		System.out.println(bookStrings.stream().filter(ele->((String)ele).length()>5).findFirst());
 		bookStrings.stream().mapToInt(ele->((String)ele).length()).forEach(System.out::println);
-		//遍历Instream中的所有元素
+		//閬嶅巻Instream涓殑鎵�鏈夊厓绱�
 		bookStrings.stream().forEach(System.out::println);
 		
 	}
