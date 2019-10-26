@@ -5,7 +5,7 @@ public class CollectionStream {
 		
 	public static void main(String[] args) {
 
-		//»ÆÀÖ»ÆÀÖ
+		//2019/10/26
 		
 		
 		Collection<String> bookStrings=new HashSet<String>();
@@ -20,7 +20,7 @@ public class CollectionStream {
 		System.out.println(bookStrings.stream().filter(ele->((String)ele).length()>3).count());
 		System.out.println(bookStrings.stream().filter(ele->((String)ele).length()>5).findFirst());
 		bookStrings.stream().mapToInt(ele->((String)ele).length()).forEach(System.out::println);
-		//±éÀúInstreamÖĞµÄËùÓĞÔªËØ
+		//éå†Instreamä¸­çš„æ‰€æœ‰å…ƒç´ 
 		bookStrings.stream().forEach(System.out::println);
 		
 	}
